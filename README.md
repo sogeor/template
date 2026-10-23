@@ -50,7 +50,7 @@ pre-commit install          # gitleaks, linters, secret checks
 
 ## API
 
-{{Link to the API reference, e.g. https://api.sogeor.com/docs. (optional)}}
+{{Link to the API reference, e.g. <https://api.sogeor.com/docs>. (optional)}}
 
 ## Maintainers
 
@@ -62,4 +62,4 @@ Issues and pull requests are welcome. Read the [contributing guidelines](https:/
 
 ## License
 
-© {{YEAR}} {{COPYRIGHT_HOLDER}}. [Sogeor License 1.0](LICENSE) (English and Russian; the Russian version prevails) — you may read the code and contribute, but not copy, redistribute or reuse it.
+© {{YEAR}} Georgii Sopin. [Sogeor License 1.0](LICENSE) (English and Russian; the Russian version prevails) — you may read the code and contribute, but not copy, redistribute or reuse it.

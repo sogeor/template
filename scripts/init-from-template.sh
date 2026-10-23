@@ -6,16 +6,12 @@ set -euo pipefail
 REPO_NAME="$(basename "$(git rev-parse --show-toplevel)")"
 SHORT_DESCRIPTION="${1:?Pass a one-line description}"
 YEAR="$(date +%Y)"
-COPYRIGHT_HOLDER="${COPYRIGHT_HOLDER:?Set COPYRIGHT_HOLDER (full legal name or company)}"
-AGE_PERSONAL_PUBLIC_KEY="${AGE_PERSONAL_PUBLIC_KEY:?Set AGE_PERSONAL_PUBLIC_KEY (age1...)}"
 
 files=$(git ls-files | grep -v '^scripts/init-from-template.sh$')
 for f in $files; do
   sed -i \
     -e "s|{{REPO_NAME}}|${REPO_NAME}|g" \
     -e "s|{{YEAR}}|${YEAR}|g" \
-    -e "s|{{COPYRIGHT_HOLDER}}|${COPYRIGHT_HOLDER}|g" \
-    -e "s|{{AGE_PERSONAL_PUBLIC_KEY}}|${AGE_PERSONAL_PUBLIC_KEY}|g" \
     -e "s|{{SHORT_DESCRIPTION — one line, under 120 characters}}|${SHORT_DESCRIPTION}|g" \
     "$f"
 done

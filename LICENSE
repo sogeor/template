@@ -1,7 +1,7 @@
 Sogeor License 1.0 / Лицензия Sogeor 1.0
 SPDX-License-Identifier: LicenseRef-Sogeor-1.0
 
-Copyright (c) {{YEAR}} {{COPYRIGHT_HOLDER}}. All rights reserved. Все права защищены.
+Copyright (c) {{YEAR}} Georgii Sopin. All rights reserved. Все права защищены.
 
 This license is published in English and Russian. In case of any
 discrepancy between the versions, the Russian version prevails.
@@ -18,7 +18,7 @@ to copy, use, modify, distribute or otherwise exploit the Software is granted.
 
 1. Definitions
 
-"Licensor" means {{COPYRIGHT_HOLDER}}, the holder of the copyright in the
+"Licensor" means Georgii Sopin, the holder of the copyright in the
 Software, together with its successors and assigns, including any legal
 entity (in particular Sogeor, once registered) to which the copyright in
 the Software is transferred.
@@ -136,7 +136,7 @@ between the versions, the Russian version prevails.
 
 1. Определения
 
-«Лицензиар» — {{COPYRIGHT_HOLDER}}, обладатель исключительного права на
+«Лицензиар» — Сопин Георгий Николаевич, обладатель исключительного права на
 Программу, а также его правопреемники, включая юридическое лицо (в
 частности, Sogeor после государственной регистрации), к которому перейдёт
 исключительное право на Программу.
