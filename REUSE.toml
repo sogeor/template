@@ -1,0 +1,7 @@
+version = 1
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "{{YEAR}} {{COPYRIGHT_HOLDER}}"
+SPDX-License-Identifier = "LicenseRef-Sogeor-1.0"

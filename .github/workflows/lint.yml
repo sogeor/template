@@ -1,0 +1,10 @@
+name: lint
+on:
+  push: { branches: [main] }
+  pull_request: {}
+permissions: { contents: read }
+jobs:
+  iac:
+    uses: sogeor/ci/.github/workflows/lint-iac.yml@v1
+  docs:
+    uses: sogeor/ci/.github/workflows/docs-lint.yml@v1
