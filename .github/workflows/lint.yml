@@ -6,7 +6,5 @@ permissions: { contents: read }
 jobs:
   iac:
     uses: sogeor/workflows/.github/workflows/lint-iac.yml@v1
-    secrets:
-      GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE }}
   docs:
     uses: sogeor/workflows/.github/workflows/docs-lint.yml@v1
