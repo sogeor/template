@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.2](https://github.com/sogeor/template/compare/v1.0.1...v1.0.2) (2026-10-28)
+
+
+### Changed
+
+* update github/codeql-action digest to 9b32540 ([#27](https://github.com/sogeor/template/issues/27)) ([51c91b2](https://github.com/sogeor/template/commit/51c91b23b7ef8d5dfeed846c6e883de63e501bda))
+* update sogeor/workflows action to v1.3.2 ([#24](https://github.com/sogeor/template/issues/24)) ([f7523ea](https://github.com/sogeor/template/commit/f7523ea9877ed354c53ae52444a0212e67b31ab9))
+* update sogeor/workflows action to v1.3.3 ([#26](https://github.com/sogeor/template/issues/26)) ([a247fc8](https://github.com/sogeor/template/commit/a247fc8a83bbdd5268bbebccb4df7424faa77b15))
+
 ## [1.0.1](https://github.com/sogeor/template/compare/v1.0.0...v1.0.1) (2026-10-25)
 
 
